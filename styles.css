@@ -13,15 +13,15 @@ div{
     justify-content: center;
     align-items: center;
 }
+
 .mycard{
     background-color: white;
-    width: 325;
+    width: 325px;
     height: 500px;
     border-radius: 4%;
     box-shadow: 0.7em 0.7em 1em black;
     padding:1% 
 }
-
 
 .suits{
     font-size: 95px;

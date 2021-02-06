@@ -1,6 +1,7 @@
 window.onload = function(){
-    let suits= ["♠", "♣", "♥", "♦"];
+    let suits = ["♠", "♣", "♥", "♦"];
     let num = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+    
     let suitContentTop = document.getElementById("suits-top");
     let suitContentBottom = document.getElementById("suits-bottom");
     let numContent = document.getElementById("number");
@@ -13,7 +14,7 @@ window.onload = function(){
     numContent.textContent = numRandom;
 
     if (suitRandom == "♥" || suitRandom == "♦") {
-        suitsContentTop.style.color = "red"
-        suitsContentbottom.style.color = "red"
+        suitContentTop.style.color = "red"
+        suitContentbottom.style.color = "red"
     }
 }
