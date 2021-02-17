@@ -15,6 +15,6 @@ window.onload = function(){
 
     if (suitRandom == "♥" || suitRandom == "♦") {
         suitContentTop.style.color = "red"
-        suitContentbottom.style.color = "red"
+        suitContentBottom.style.color = "red"
     }
 }
